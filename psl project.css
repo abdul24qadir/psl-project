@@ -169,7 +169,11 @@ table
         color: green;
         margin-left: 50px;
       }
-      .end{
+      .mob{
         background-color: black;
         padding: 50px;
+          color:white;
+          font-size:50px;
+          font-family:Arial;
+          
       }
