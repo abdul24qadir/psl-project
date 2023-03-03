@@ -1,0 +1,175 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 75px;
+    position: fixed;
+    background-color: green;
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding : 0px 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+nav li a:hover{
+color: greenyellow;
+transition: all 0.4s ease 0s;
+}
+.content-item img{
+width:100%;
+height: 60vh;
+background-size: cover;
+background-position: center;
+}
+.r{
+    margin: 80px ;
+    padding: auto;
+    box-sizing: border-box;
+}
+h1{
+    color: green;
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pt{
+    color: darkgreen;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.team1{
+margin: 100px;   
+border: 2px solid black;
+background-color: beige;
+padding: 20px;
+    }
+h2{
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table
+     {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid black;
+        margin: 20px ;
+        margin-right: 20px;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      .cos{
+        margin-left:50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: green;
+        text-align: left;
+      }
+      .dropdown {
+        float: initial;
+        display: inline-block;
+      }
+      
+      .dropdown .dropbtn {
+        font-size: 20px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 10px 10px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: lightgreen;
+        color: green;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: green;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: green;
+        color: white;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .side{
+        float: right;
+        border: 2px solid black;
+        margin-right: 50px;
+        margin-top: 0%;
+        background-color: antiquewhite;
+        padding: 10px;
+      }
+      .p1{
+        text-align: start;
+        color: chocolate;
+      }
+      .Aboutseasons{
+        margin-right: 80px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: green;
+        margin-left: 50px;
+      }
+      .end{
+        background-color: black;
+        padding: 50px;
+      }
